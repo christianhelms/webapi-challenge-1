@@ -25,14 +25,19 @@ In this challenge, create a web API around the following resources: `Projects` a
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Mention two parts of Express that you learned about this week.
+Answer: Express middleware, end points, and creating an api using it.
 
 - [ ] Describe Middleware?
+Answer: Middleware is a block of code that's created within the file that can be used over and over on end points that need it. It's a great practice to follow when you're following the DRY rule. It's a great way to validate data or or have canned responses for errors such as 500s.
 
 - [ ] Describe a Resource?
+I'm not sure in what context we are describing this resource. A resource is something you turn to when you need help, it can be an article, video, or anything else really. As long as it helps you. If we are talking about resources in the way of packages, it could be anything that helps you write your code without you having to write it all yourself. You install the packages, read the docs, set it up, and you're finished. It can save you a long time. Hopefully that answers what this was in relation to.
 
 - [ ] What can the API return to help clients know if a request was successful?
+A 200 or 201 depending on if it's creating something or just retrieving.
 
 - [ ] How can we partition our application into sub-applications?
+By breaking our files down into an index.js file and server.js file to start then also using a user-router.js file for end points and a post-router.js file for our post end points.
 
 ## Project Setup
 
